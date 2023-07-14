@@ -170,7 +170,7 @@ const InfoForm = (props) => {
           className={`${fullNameIsValid === false ? classes.invalid : ""} col`}
         >
           <label htmlFor="fullName" className="form-label">
-            Fullname
+            Full Name
           </label>
           <input
             type="text"
