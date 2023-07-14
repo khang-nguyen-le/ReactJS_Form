@@ -1,0 +1,57 @@
+.form {
+    padding: 1rem;
+    max-width: 50rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #307e6c, #2b996d);
+}
+
+.form label {
+    font-weight: semi-bold;
+}
+
+.form input {
+    background-color: transparent;
+    border: 1px solid #76c0ae;
+    font-size: 1rem;
+    color: #c2e9e0;
+}
+
+.form input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-color: #ced4da;
+    color: #c2e9e0;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    background: linear-gradient(180deg, #1f584b, #17493d);
+    border: none;
+}
+
+.button:hover {
+    background: linear-gradient(180deg, #1b5346, #113c32);
+}
+
+.buttonAlt {
+    background-color: transparent;
+    border: transparent;
+}
+
+.buttonAlt:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.invalid input {
+    border-color: red;
+}
+
+.invalid .messageText {
+    color: red;
+}

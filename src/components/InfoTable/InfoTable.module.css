@@ -1,0 +1,42 @@
+.result {
+    max-width: 50rem;
+    margin: 2rem auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.result tr:hover td {
+    color: white;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.buttonIcon {
+    background-color: transparent;
+    border: none;
+}
+
+.searchBox {
+    width: 50rem;
+}
+
+.searchBox input {
+    background-color: transparent;
+    color: white;
+}
+
+.searchBox input:focus {
+    box-shadow: none;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.searchBox span {
+    background-color: transparent;
+    color: white;
+}
