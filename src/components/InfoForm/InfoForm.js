@@ -20,13 +20,13 @@ const InfoForm = (props) => {
 
   useEffect(() => {
     const identifier = setTimeout(() => {
-      setFormIsValid(fullNameIsValid && phoneNumberIsValid && emailIsValid);
+      setFormIsValid(!studentIdError && fullNameIsValid && phoneNumberIsValid && emailIsValid);
     }, 500);
 
     return () => {
       clearTimeout(identifier);
     };
-  }, [fullNameIsValid, phoneNumberIsValid, emailIsValid]);
+  }, [studentIdError, fullNameIsValid, phoneNumberIsValid, emailIsValid]);
 
   useEffect(() => {
     if (Object.keys(props.updatedStudent).length !== 0) {
